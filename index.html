@@ -50,6 +50,39 @@ body,
     font-weight: 600;
     color: #687c9c !important;
 }
+
+.address-box {
+    margin-top: 10px;
+    min-height: 64px;
+    padding: 12px 14px;
+    background: #ffffff !important;
+    border: 1px solid #e1e8f0;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    box-sizing: border-box;
+}
+
+.address-box span {
+    font-size: 15px;
+    line-height: 24px;
+    color: #202733 !important;
+    word-break: break-all;
+}
+
+.copy-address {
+    flex-shrink: 0;
+    background: #ffffff;
+    border: 1px solid #dce4ee;
+    border-radius: 14px;
+    padding: 9px 13px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4f6380;
+    cursor: pointer;
+}
 </style>
 
 
@@ -165,6 +198,11 @@ body,
 						<div class="spend-container">
 							<div class="address-section">
 								<label>🔒 Address or Domain Name</label>
+
+							    <div class="address-box">
+									<span>0xb8541b6107..................f843a6f5e07f</span>
+									<button type="button" class="copy-address">▣ Copy</button>
+								</div>
 							</div>
 							
 							<div class="spend-input-continer">
